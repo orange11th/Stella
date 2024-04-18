@@ -36,7 +36,7 @@
 ## 🛒Usage
 
 ````
-git clone https://lab.ssafy.com/s10-webmobile2-sub2/S10P12B209.git
+git clone https://github.com/orange11th/Stella
 
 ````
 
@@ -101,21 +101,36 @@ git clone https://lab.ssafy.com/s10-webmobile2-sub2/S10P12B209.git
 
 ## 📌서비스 화면
 
-### 로그인
+### 로그인 화면: 일반 로그인, 소셜 로그인 지원
 ![login](./asset/01_login.png)
 
-### 메인화면
+</br>
+
+### 메인화면: Three.js를 활용한 밤하늘 표현
 ![main](./asset/02_main.gif)
 
-### 게시글 작성
+</br>
+
+### 일기 작성: 빈 공간을 클릭하여 일기를 작성하고 해당 자리는 별이 됨
 ![write](./asset/03_write.gif)
 
-### 별자리 형성
-![constellation](./asset/04_constellation.png)
- 게시글 작성을 통해 별자리 내 모든 별을 등록 시 별자리 형성
+</br>
 
-### 라디오 
+### 별자리 형성: 일기 작성을 통해 별자리 내 모든 별을 등록 시 별자리 형성
+![constellation](./asset/04_constellation.png)
+
+</br>
+
+### 라디오: 작성한 일기를 익명으로 무작위 회원에게 송신하고 수신받은 일기를 TTS로 재생
 ![radio1](./asset/05_1_radio.gif)
 ![radio2](./asset/05_2_radio.png)
 
+</br>
 
+## ER Diagram
+![ERD](./asset/ERD.png)
+
+</br>
+
+## API 명세서
+![API](./asset/api.jpg)
